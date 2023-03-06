@@ -1,0 +1,5 @@
+def inverte(txt):
+    return txt[::-1]
+
+txt = str(input("Digite uma string:"))
+print(inverte(txt))
